@@ -479,7 +479,7 @@
 
 16. **Aid in Dying Statutes**
 
-    a. **File Name:** Multiple files, including AidInDying_AssistedSuicide_coding.do
+    a. **File Name:** Multiple files, including Aid_in_dying (State-Year).xlsx and Aid_in_dying (State-Year-Month).xlsx
 
     b. **Description of Data:**  
        State-by-state policies surrounding Aid In Dying and Assisted Suicide.
