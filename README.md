@@ -97,7 +97,7 @@
 
 ---
 
-5. **Medicare Reimbursement – SNF**
+4. **Medicare Reimbursement – SNF**
 
    a. **File Name:** Medicare_reimbursement_rates.csv
 
