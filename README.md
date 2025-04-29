@@ -1,4 +1,4 @@
-# End-of-Life-Care Grant Readme
+# End of Life Care: Estimating the Effectiveness of 20 Years of Health System Reform Readme
 
 ## Common Terminology:
   1. **ACO:** Accountable Care Organization
