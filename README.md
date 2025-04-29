@@ -20,7 +20,7 @@
   17. **PPO:** Preferred Provider Organization
   18. **SNF:** Skilled Nursing Facility
 
-# Data Dictionary
+## Data Dictionary
 
 1. **Medicare Advantage penetration**
    
