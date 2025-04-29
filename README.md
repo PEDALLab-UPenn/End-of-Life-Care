@@ -50,3 +50,48 @@
 
      viii. **msa_plans** = number of local Medicare Medical Savings Account plans
 
+
+2. **Medicare Reimbursement – ACP (2016)**
+
+   a. **File Name:** ACP_reimbursement_policy.dta
+
+   b. **Description of Data:**  
+      State-by-state policies on ACP reimbursement or inclusion into Medicare Visit (1999–2016).
+
+   c. **Data Source:**  
+      Cannot be found.
+
+   d. **Variables:**  
+
+     i. **state** = state  
+
+     ii. **year** = year  
+
+     iii. **acp_reimbursement** = ACP reimbursement (1=Yes, 0=No)  
+
+     iv. **acp_welcomevisit** = ACP included in Medicare Visit (1=Yes, 0=No)
+
+4. **Medicare Reimbursement – Hospice**
+
+   a. **File Name:** Medicare_hospice_reimbursement.dta
+
+   b. **Description of Data:**  
+      Reimbursement rates for hospice services 1995–2016, including cap amounts.
+
+   c. **Data Source:**  
+      CMS, National Hospice and Palliative Care Organization, CGS.
+
+   d. **Variables:**  
+
+     i. **year** = year  
+
+     ii. **chc_rate** = continuous home care rate  
+
+     iii. **gic_rate** = general inpatient care rate  
+
+     iv. **hospice_cap** = aggregate cap amount  
+
+     v. **rhc_rate** = routine home care rate  
+
+     vi. **irc_rate** = inpatient respite care rate  
+
