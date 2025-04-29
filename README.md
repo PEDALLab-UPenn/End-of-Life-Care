@@ -34,7 +34,7 @@
 
    d. **Variables:**
 
-       i. **state** = state
+     i. **state** = state
 
      ii. **year** = year
 
