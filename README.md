@@ -71,7 +71,7 @@
 
      iv. **acp_welcomevisit** = ACP included in Medicare Visit (1=Yes, 0=No)
 
-4. **Medicare Reimbursement – Hospice**
+3. **Medicare Reimbursement – Hospice**
 
    a. **File Name:** Medicare_hospice_reimbursement.dta
 
@@ -95,3 +95,127 @@
 
      vi. **irc_rate** = inpatient respite care rate  
 
+4. **Medicare Reimbursement – SNF**
+
+   a. **File Name:** Medicare_reimbursement_rates.csv
+
+   b. **Description of Data:**  
+      Record of different healthcare services and Medicare reimbursement daily rates, 2004–2018.
+
+   c. **Data Source:**  
+      CMS consolidated billing for SNF reports.
+
+   d. **Variables:**  
+
+     i. **year** = year  
+
+     ii. **type_of_care** = type of care provided  
+
+     iii. **daily_rate** = Wage Comp. Subj. to Index + Non-Weighted Amount  
+
+     iv. **wage_comp_subj_to_index** = labor component  
+
+     v. **non_weighted_amount** = non-labor component  
+
+     vi. **quality_data** = Quality Data submission status  
+
+     vii. **area_specific_payment_rate** = Wage indexed rate  
+
+     viii. **sia_rate** = Service Intensity Add-On rate (2016)
+
+   e. **Notes:**  
+      1998–2003 missing; 2008 missing General Inpatient Care & Inpatient Respite Care.
+
+---
+
+5. **SNF/hospital partnerships**
+
+   a. **File Name:** 2010-2016_hospital_partnership.sas7bdat
+
+   b. **Description of Data:**  
+      Hospitals noting attached SNF, HHA, or PAC services from 2010–2016.
+
+   c. **Data Source:**  
+      CMS Healthcare Provider Cost Reporting System files.
+
+   d. **Variables:**  
+
+     i. **hosp_prvdrnum** = Hospital Provider Number  
+
+     ii. **rpt_date** = Receipt Date  
+
+     iii. **snf_prvdrnum** = SNF Provider Number  
+
+     iv. **hha_prvdrnum** = HHA Provider Number  
+
+     v. **hosp_snf** = Hospital-based SNF (1 = Yes, 0 = No)  
+
+     vi. **hosp_hha** = Hospital-based HHA (1 = Yes, 0 = No)  
+
+     vii. **hosp_pac** = Hospital-based PAC (1 = Yes, 0 = No)  
+
+     viii. **year** = year  
+
+     ix. **rpt_rec_num** = Record Number  
+
+     x. **prvdr_bsd_fac_sw** = Provider Based Facility Switch  
+
+---
+
+6. **Medicaid HMO Penetration**
+
+   a. **File Name:** Medicaid_HMO_penetration.dta
+
+   b. **Description of Data:**  
+      Medicaid Managed Care Penetration Rate across states from 1997–2017.
+
+   c. **Data Source:**  
+      Kaiser Family Foundation.
+
+   d. **Variables:**  
+
+     i. **state** = state  
+
+     ii. **year** = year  
+
+     iii. **mcaid_mco** = Medicaid Managed Care Penetration Rate  
+
+---
+
+7. **Medicaid Informal Care Supports** ***(PRIORITY)***
+
+   a. **File Name:** State_informal_care_policies.csv
+
+   b. **Description of Data:**  
+      State-by-state breakdown of informal care policies from 2000 onward.
+
+   c. **Data Source:**  
+      Cannot be found.
+
+   d. **Variables:**  
+
+     i. **state** = state name  
+
+     ii. **year** = year  
+
+     iii. **st** = state number alphabetically  
+
+     iv. **cfc** = Community First Choice policy active (0 = No; 1 = Yes)  
+
+     v. **bip** = Balancing Incentives Program active (0 = No; 1 = Yes)  
+
+     vi. **hcbs** = Home- and Community-Based Services (0 = No; 1 = Yes)  
+
+     vii. **mcaid_exp** = Medicaid Expansion (0 = No; 1 = Yes)  
+
+     viii. **care** = (Cannot be found)  
+
+     ix. **ltci** = Long-Term Care Insurance (0 = No; 1 = Yes)  
+
+     x. **spouse_pay_mcaid** = Spouse paying for Medicaid (0 = No; 1 = Yes)  
+
+     xi. **first** = first year with policies  
+
+     xii. **start** = starting year  
+
+     xiii. **rel_yr** = year relative to first  
