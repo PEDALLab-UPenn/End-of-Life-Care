@@ -1,6 +1,6 @@
 # End-of-Life-Care Grant Readme
 
-**Common Terminology:**
+## Common Terminology:
   1. **ACO:** Accountable Care Organization
   2. **ACP:** Advance Care Planning
   3. **AD:** Advance Directive
