@@ -184,7 +184,7 @@
 
 ---
 
-7. **Medicaid Informal Care Supports** ***(PRIORITY)***
+7. **Medicaid Informal Care Supports** 
 
    a. **File Name:** State_informal_care_policies.csv
 
@@ -223,7 +223,7 @@
      xiii. **rel_yr** = year relative to first
 ---
 
-8. **Medicaid Reimbursement – Hospice** ***(PRIORITY)***
+8. **Medicaid Reimbursement – Hospice** 
 
    a. **File Name:** Medicaid_reimbursement_hospice.csv
 
@@ -259,7 +259,7 @@
 
 ---
 
-9. **Medicaid Reimbursement – Nursing Homes** ***(PRIORITY)***
+9. **Medicaid Reimbursement – Nursing Homes** 
 
    a. **File Name:** Medicaid_reimbursement_nh.xlsx
 
@@ -281,7 +281,7 @@
 
 ---
 
-10. **Physician Ordered Life Sustaining Treatment (POLST)** ***(PRIORITY)***
+10. **Physician Ordered Life Sustaining Treatment (POLST)** 
 
     a. **File Name:** Phys_ordered_life_sus_treatment.dta
 
@@ -375,7 +375,7 @@
 
 ---
 
-13. **State Advance Directive Registries** ***(PRIORITY)***
+13. **State Advance Directive Registries** 
 
     a. **File Name:** Advance_directive_registry_state.dta
 
@@ -396,7 +396,7 @@
       iv. **registry** = State provides AD registry?  
 ---
 
-14. **Advance Directive and Durable Power of Attorney Laws and Forms** ***(PRIORITY)***
+14. **Advance Directive and Durable Power of Attorney Laws and Forms**
 
     a. **File Name:** AD_durable_power_attorney.dta
 
@@ -492,7 +492,7 @@
 
 ---
 
-17. **Hospice: Certificate of Need Laws** ***(PRIORITY)***
+17. **Hospice: Certificate of Need Laws** 
 
     a. **File Name:** Certificate_of_need_laws.xlsx and Certificate_of_need_laws_revised.xlsx
 
