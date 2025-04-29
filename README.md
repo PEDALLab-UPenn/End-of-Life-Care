@@ -50,7 +50,7 @@
 
      viii. **msa_plans** = number of local Medicare Medical Savings Account plans
 
-
+---
 2. **Medicare Reimbursement – ACP (2016)**
 
    a. **File Name:** ACP_reimbursement_policy.dta
@@ -70,7 +70,7 @@
      iii. **acp_reimbursement** = ACP reimbursement (1=Yes, 0=No)  
 
      iv. **acp_welcomevisit** = ACP included in Medicare Visit (1=Yes, 0=No)
-
+---
 3. **Medicare Reimbursement – Hospice**
 
    a. **File Name:** Medicare_hospice_reimbursement.dta
@@ -93,9 +93,11 @@
 
      v. **rhc_rate** = routine home care rate  
 
-     vi. **irc_rate** = inpatient respite care rate  
+     vi. **irc_rate** = inpatient respite care rate
 
-4. **Medicare Reimbursement – SNF**
+---
+
+5. **Medicare Reimbursement – SNF**
 
    a. **File Name:** Medicare_reimbursement_rates.csv
 
